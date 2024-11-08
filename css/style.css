@@ -5,3 +5,52 @@
     margin: 0;
     padding: 0;
 }
+
+/*---- GENERAL -----*/
+
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+/*---- BUTTONS -----*/
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 6px 12px;
+}
+.btn-primary{
+    background-color:#0061fe;
+    color: white;
+}
+/*---- TYPHOGRAPHY -----*/
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*---- HEADER -----*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    font-size: 14px;
+    flex-grow: 1;
+}
+.ul-header {
+    display: flex;
+    list-style: none;
+}
+.header-left, .header-right{
+    display: flex;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+}
