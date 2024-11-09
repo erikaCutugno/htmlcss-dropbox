@@ -48,6 +48,11 @@ ul{
     background-color:#0061fe;
     color: white;
 }
+.btn-secondary{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 .business .btn-primary{
     width: 100%;
@@ -98,7 +103,7 @@ header a{
 }
 
 
-/*---- MAIN -----*/
+/*---- MAIN HERO -----*/
 
 .hero{
     background-color: #b4d0e6;
@@ -107,13 +112,13 @@ header a{
 .row{
     display: flex;
 }
-.col-big{
-    width: 30%;
-}
 .col-small{
-    width: 70%;
-    position: relative;
+    width: 40%;
 }
+.col-big{
+    width: 60%;
+}
+
 .space-large{
     padding-top: 70px;
     padding-bottom: 30px;
@@ -121,14 +126,13 @@ header a{
 .space{
     padding: 30px 0;
 }
-.hero{
-    position: relative;
-    left: 0;
-}
 .hero .img-fluid{
     position: relative;
     bottom: -70px;
     left: 0;
+}
+.hero .col-small{
+    position: relative;
 }
 .hero i {
     position: absolute;
