@@ -69,7 +69,7 @@ h1{
     padding-top: 30px;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3{
@@ -184,9 +184,13 @@ header a{
 .business span {
     padding-left: 4px;
 }
-.check i{
+.check i, main a{
     color: #0061fe;
 }
+main a{
+    color: #100df2;
+}
+
 
 
 /*--- RADIO BUTTON ----*/
