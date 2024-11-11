@@ -193,7 +193,7 @@ header a{
 .business i, footer i{
     padding-right: 4px;
 }
-.business span {
+.business label{
     padding-left: 4px;
 }
 .check i, main a{
