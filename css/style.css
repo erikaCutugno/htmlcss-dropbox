@@ -38,6 +38,31 @@
 ul{
     list-style: none;
 }
+
+.row{
+    display: flex;
+}
+.col{
+    flex-grow: 1;
+}
+.col-small{
+    width: 40%;
+}
+.col-big{
+    width: 60%;
+}
+
+.space-large{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.space{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.space-20{
+    padding: 20px 0;
+}
 /*---- BUTTONS -----*/
 
 .btn{
@@ -94,13 +119,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
-    flex-grow: 1;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 100;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .ul-header {
     display: flex;
@@ -122,24 +146,6 @@ header a{
     background-color: #b4d0e6;
 }
 
-.row{
-    display: flex;
-}
-.col-small{
-    width: 40%;
-}
-.col-big{
-    width: 60%;
-}
-
-.space-large{
-    padding-top: 70px;
-    padding-bottom: 30px;
-}
-.space{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 .hero .img-fluid{
     position: relative;
     bottom: -70px;
@@ -164,9 +170,7 @@ header a{
 .grey{
     color: #6c6e6b;
 }
-.col{
-    flex-grow: 1;
-}
+
 .business-top .col, .business-bottom{
     border: 1px solid #d0cfd4;
 }
@@ -180,9 +184,6 @@ header a{
     padding: 10px 0;
 }
 
-.space-20{
-    padding: 20px 0;
-}
 .business li, .grey-info, footer li{
     padding: 8px 0;
 }
@@ -199,13 +200,12 @@ header a{
 .business label{
     padding-left: 4px;
 }
-.check i, main a{
+.check i{
     color: #0061fe;
 }
 main a{
     color: #100df2;
 }
-
 
 
 /*--- RADIO BUTTON ----*/
