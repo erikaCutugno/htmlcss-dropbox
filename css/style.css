@@ -21,7 +21,6 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
 }
 
 .container{
@@ -144,6 +143,7 @@ header a{
 /*---- MAIN BUSINESS -----*/
 
 .business{
+    margin-top: 80px;
     border-top: 1px solid #d0cfd4;
 }
 .grey{
@@ -168,7 +168,7 @@ header a{
 .space-20{
     padding: 20px 0;
 }
-.business li, .grey-info{
+.business li, .grey-info, footer li{
     padding: 8px 0;
 }
 .space-hr{
@@ -178,7 +178,7 @@ header a{
 .business-plane{
     padding: 30px;
 }
-.business i {
+.business i, footer i{
     padding-right: 4px;
 }
 .business span {
@@ -215,4 +215,15 @@ main a{
 }
 .radio-btn input:checked + .checkmark {
     display: block ;
+}
+
+/*----FOOTER-----*/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-space{
+    padding-right: 4px 0;
 }
