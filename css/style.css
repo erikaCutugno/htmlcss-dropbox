@@ -187,6 +187,9 @@ header a{
 .business li, .grey-info, footer li{
     padding: 8px 0;
 }
+.business li{
+    display: flex;
+}
 .space-hr{
     width: 10%;
     margin: 20px 0;
