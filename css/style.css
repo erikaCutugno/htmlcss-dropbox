@@ -242,6 +242,15 @@ footer{
     color: white;
 }
 
+footer h3{
+    margin-bottom: 20px;
+}
+
 .footer-space{
     padding-right: 4px;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
 }
